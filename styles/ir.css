@@ -1,0 +1,38 @@
+#wrap main .path {
+    border:1px solid #f1f1f1;
+    border-left:0; border-right:0;
+    padding:12px 60px 12px 0;
+    font-size:0.75rem;
+    text-align:right;
+    letter-spacing:0;
+}
+#wrap main .path a {}
+#wrap main .path img {margin:0 8px;}
+#wrap main .path em {}
+#wrap main * {
+text-align:center;
+}
+#wrap main h1 {
+    font-size:3.75rem;
+    font-weight:700;
+    margin:80px 0 20px;
+}
+#wrap main > p {
+    font-size:1.125rem;
+    line-height:150%;
+    margin-bottom:40px;
+}
+#wrap main .bg {}
+#wrap main .bg .ir_list {
+    padding:80px 0;
+    background-color:#fcfcfc;
+    overflow:hidden;
+}
+/* 레이아웃 위치/정렬 기법 inline-block, float, flex, grid, position */
+#wrap main .bg .ir_list a {
+    width:260px; height:250px;
+    border:1px solid #ddd;
+    float:left;
+}
+#wrap main .bg .ir_list a h2 {}
+#wrap main .bg .ir_list a p {}

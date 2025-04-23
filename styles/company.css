@@ -37,7 +37,6 @@
     font-size:1.125rem;
     font-weight:600;
     line-height:1.5;
-    margin-top:40px;
     /* html작성 시 영어는 소문자로 표시하고 css로 클라이언트의 요청사항에따라 대소문자를 디자인 해야 한다. */
     text-transform:uppercase;
 }
