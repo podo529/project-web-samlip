@@ -5,6 +5,7 @@
     font-size:0.75rem;
     text-align:right;
     letter-spacing:0;
+    background-color:#fcfcfc;
 }
 #wrap main .path a {}
 #wrap main .path img {margin:0 8px;}
