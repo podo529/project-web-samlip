@@ -12,6 +12,15 @@
     <link href="./styles/index.css" rel="stylesheet">
 </head>
 <body>
+    <!-- 우측 pagenation 고정영역 -->
+    <div class="right_nav">
+        <a href="#ad_wrap"><em>Main</em><span></span></a>
+        <a href="#news_all"><em>Main & Notice</nav></em><span></span></a>
+        <a href="#studio_wrap"><em>Now @ Samlip</em><span></span></a>
+        <a href="#brand_all"><em>Our Brands</em><span></span></a>
+        <a href="#footer"><em>Company Info</em><span></span></a>
+    </div>
+    <!-- 삼립 메인페이지 시작 영역 -->
     <div id="wrap">
         <header>
             <h1><a href="./index.html"><img src="./images/logo.png" alt="spc 삼립"></a></h1>
@@ -147,7 +156,7 @@
         </header>
         <main>
         <!-- 1. 광고배너 -->
-        <section class="ad_wrap">
+        <section class="ad_wrap" id="ad_wrap">
             <!-- 1-1. 광고 개별 그룹 -->
             <div class="ad_container">
                 <div class="ad ad1">
@@ -188,7 +197,7 @@
             </div>
         </section>
         <!-- 2. 뉴스&공지사항 -->
-        <section class="news_all">
+        <section class="news_all" id="news_all">
             <h2>News & Notice</h2>
             <p>SPC Samlip news updates, from a company that is always happy.</p>
             <section class="news_wrap">
@@ -261,9 +270,278 @@
             </a>
         </section>
         <!-- 3. 삼립 스튜디오 -->
+        <section class="studio_wrap" id="studio_wrap">
+            <h2>News @ Samlip Studio</h2>
+            <p>Samlip Studio, SPC Samlip’s YouTube channel where you can eat, watch, and digest.</p>
+            <!-- 유튜브 채널 미리보기 바로 보이는 영역 -->
+            <div class="studio_list">
+                <a href="#"><img src="./images/youtube01.jpg" alt="삼립호빵 영상보기"></a>
+                <a href="#"><img src="./images/youtube02.jpg" alt="육즙가득 함박스테이크1 영상보기"></a>
+                <a href="#"><img src="./images/youtube03.jpg" alt="육즙가득 합박스테이크2 영상보기"></a>
+                <a href="#"><img src="./images/youtube04.jpg" alt="육즙가득 함박스테이크3 영상보기"></a>
+                <a href="#"><img src="./images/youtube05.jpg" alt="삼립 세일즈 마케터의 하루 영상보기"></a>
+                <a href="#"><img src="./images/youtube06.jpg" alt="동수수퍼 몰아보기 part2 영상보기"></a>
+                <a href="#"><img src="./images/youtube07.jpg" alt="동수수퍼 몰아보기 part1 영상보기"></a>
+                <a href="#"><img src="./images/youtube08.jpg" alt="오레오 케이크 만드는 법 영상보기"></a>
+            </div>
+            <!-- 위 미리보기 클릭 시 열리는 영역 -->
+            <div class="studio_open">
+                <div class="open_container">
+                    <button type="button" class="close" title="close(ESC)">X</button>
+                    <div class="youtube">
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/ak643LmueKE" title="[삼립호빵] 올겨울 삼립호빵은 신.뉴.빈.만 기억해!🐤" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/L1PWvUCGkDM" title="[시티델리] 시티델리로 함 박꿔보시죠!✨ 아주 간편해도 가장 고기다운 #시티델리 육즙가득 함박스테이크 (5초)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/uLd2Y3V2V6o" title="[시티델리] 시티델리로 함 박꿔보시죠!✨ 아주 간편해도 가장 고기다운 #시티델리 육즙가득 함박스테이크 (15초)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/jvVNTgcjyu0" title="[시티델리] 시티델리로 함 박꿔보시죠! ✨ 아주 간편해도 가장 고기다운 #시티델리 육즙가득 함박스테이크(30초)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/KzxvoWVdLMA" title="[삼립LOG]삼립 빵순이의 하루🍞 세일즈마케터(영업) 하루업무 보기🔍" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/B1Pm8DjZa24" title="분명히 남자였는데 여자친구가 됐다 [동수수퍼] 몰아보기 part.2 | 웹드라마" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/xpRBBnrjhS0" title="비주얼 맛집 감성충만 동네슈퍼 [동수수퍼] 몰아보기 part.1 | 웹드라마" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="851" height="479" src="https://www.youtube.com/embed/y58cZqwd0Bo" title="정통 크림빵 x 오레오 조합 미쳤누.. 편의점에서 직접 만들어보세요" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- (아래) 고정링크 -->
+            <a href="#" class="youtube_link">
+                <img src="./images/youtube_icon.png" alt="">
+                <em>View on YouTube</em>
+            </a>
+        </section>
         <!-- 4. 삼립 브랜드 -->
+        <section class="brands_all" id="brand_all">
+            <h2>Our Brands</h2>
+            <p>Introduction of SPC Samlip Brands that are loved all throughout different business fields.</p>
+            <div class="brands_wrap"><!-- 1. 슬라이드가 실제 보이는 영역 -->
+                <div class="brands_container"><!-- 2.슬라이드 전체묶는 가로영역(실제 움직이는 부분) -->
+                    <ul class="brands_slide1"><!-- 3. 첫번째 화면에 보이는 12개 로고가 들어간 부모 -->
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 첫번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="brands_slide2">
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_01.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>밀다원</h3>
+                                <p>'밀다원'은 고품질 밀가루를 보다 안전하게 공급하기 위해 생산싸지 책임지고 있습니다.</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                        <li><!-- 4. 두번째 로고 영역(반복*12) -->
+                            <p class="logo"><img src="./images/brand_02.png" alt="갓 구운 빵을 간편하게 READY B"></p>
+                            <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                            <div class="logo_details">
+                                <h3>피그인더가든</h3>
+                                <p>균형 잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                <a href="#" class="view">View Details</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 좌우보기버튼 -->
+                <div class="brands_btn">
+                    <button type="button" id="brands_prev"><img src="./images/ad_arrow_left.png" alt="이전 공지사항 보기"></button>
+                    <button type="button" id="brands_next"><img src="./images/ad_arrow_left.png" alt="다음 공지사항 보기"></button>
+                </div>
+            </div>
+        </section>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="top">
                 <div class="left">
                     <a href="#">개인정보처리방침</a>
